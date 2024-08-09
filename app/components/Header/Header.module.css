@@ -1,0 +1,59 @@
+.header {
+    height: 85vh;
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        right bottom,
+        from(rgba(126, 213, 111, 0.8)),
+        to(rgba(40, 180, 133, 0.8))
+      ),
+      url(/images/hero-small.jpg);
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(126, 213, 111, 0.8),
+        rgba(40, 180, 133, 0.8)
+      ),
+      url(/images/hero-small.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+  }
+
+.logoBox {
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+}
+
+.logo {
+    height: 3.5rem;
+}
+
+.textBox {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.headingPrimary {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.headingPrimaryMain {
+    font-size: 6rem;
+    font-weight: 400;
+    letter-spacing: 35px;
+}
+
+.headingPrimarySub {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.75rem;
+}
